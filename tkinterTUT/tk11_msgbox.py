@@ -16,7 +16,7 @@ def hit_me():
     #tk.messagebox.showerror(title='Hi', message='No!! never')   # return 'ok'
     #print(tk.messagebox.askquestion(title='Hi', message='hahahaha'))   # return 'yes' , 'no'
     #print(tk.messagebox.askyesno(title='Hi', message='hahahaha'))   # return True, False
-    print(tk.messagebox.asktrycancel(title='Hi', message='hahahaha'))   # return True, False
+    print(tk.messagebox.askretrycancel(title='Hi', message='hahahaha'))   # return True, False
     print(tk.messagebox.askokcancel(title='Hi', message='hahahaha'))   # return True, False
     print(tk.messagebox.askyesnocancel(title="Hi", message="haha"))     # return, True, False, None
 
